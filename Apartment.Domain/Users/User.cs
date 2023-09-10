@@ -1,6 +1,7 @@
-﻿using Apartment.Domain.Abstractions;
+﻿using ApartmentBooking.Domain.Abstractions;
+using ApartmentBooking.Domain.Users.Events;
 
-namespace Apartment.Domain.Users;
+namespace ApartmentBooking.Domain.Users;
 
 public sealed class User : Entity
 {
@@ -20,6 +21,8 @@ public sealed class User : Entity
     public static User Create(FirstName firstName, LastName lastName, Email email)
     {
         var user = new User(Guid.NewGuid(), firstName, lastName, email);
+
+        user.RaiseDomainEvent(new UserCreatedDomainEvent(user.Id));
 
         return user;
     }

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Apartment.Domain.Abstractions;
+namespace ApartmentBooking.Domain.Abstractions;
 
 public interface IDomainEvent : INotification
 {

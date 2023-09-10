@@ -1,5 +1,5 @@
-﻿using Apartment.Domain.Abstractions;
+﻿using ApartmentBooking.Domain.Abstractions;
 
-namespace Apartment.Domain.Users.Events;
+namespace ApartmentBooking.Domain.Users.Events;
 
 public sealed record UserCreatedDomainEvent(Guid UserId) : IDomainEvent;

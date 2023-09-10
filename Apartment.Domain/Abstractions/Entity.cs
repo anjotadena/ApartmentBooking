@@ -1,4 +1,4 @@
-﻿namespace Apartment.Domain.Abstractions;
+﻿namespace ApartmentBooking.Domain.Abstractions;
 
 public abstract class Entity
 {

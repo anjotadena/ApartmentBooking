@@ -1,4 +1,4 @@
-﻿namespace Apartment.Domain.Users;
+﻿namespace ApartmentBooking.Domain.Users;
 
 public interface IUserRepository
 {

@@ -1,4 +1,4 @@
-﻿namespace Apartment.Domain.Apartments;
+﻿namespace ApartmentBooking.Domain.Shared;
 
 public record Currency
 {

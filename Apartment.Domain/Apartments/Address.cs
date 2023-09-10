@@ -1,4 +1,4 @@
-﻿namespace Apartment.Domain.Apartments;
+﻿namespace ApartmentBooking.Domain.Apartments;
 
 public record Address(
     string Country,

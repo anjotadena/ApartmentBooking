@@ -1,6 +1,7 @@
-﻿using Apartment.Domain.Abstractions;
+﻿using ApartmentBooking.Domain.Shared;
+using ApartmentBooking.Domain.Abstractions;
 
-namespace Apartment.Domain.Apartments;
+namespace ApartmentBooking.Domain.Apartments;
 
 public sealed class Apartment : Entity
 {
@@ -24,7 +25,7 @@ public sealed class Apartment : Entity
 
     public Money CleaningFee { get; private set; }
 
-    public DateTime? LastBookedOnUtc { get; private set; }
+    public DateTime? LastBookedOnUtc { get; internal set; }
 
     public List<Amenity> Amenities { get; private set; } = new();
 }
