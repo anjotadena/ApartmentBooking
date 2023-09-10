@@ -130,7 +130,7 @@ public class Booking : Entity
             return Result.Failure(BookingErrors.AlreadyStarted);
         }
 
-        Status = BookingStatuses.Cancelled;
+        Status = BookingStatus.Cancelled;
         CancelledOnUtc = utcNow;
 
         RaiseDomainEvent(new BookingCancelledDomainEvent(Id));
