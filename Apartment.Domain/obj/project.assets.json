@@ -44,9 +44,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\Apartment.Domain.csproj",
-      "projectName": "Apartment.Domain",
-      "projectPath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\Apartment.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\ApartmentBooking.Domain.csproj",
+      "projectName": "ApartmentBooking.Domain",
+      "projectPath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\ApartmentBooking.Domain.csproj",
       "packagesPath": "C:\\Users\\Anjo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\obj\\",
       "projectStyle": "PackageReference",

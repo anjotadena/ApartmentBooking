@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xEN1Oc6TDz2ACnB+cxZIj25gu/62Lzr+bUY0/qNIRmTqgv0u4S2rjhA8kkFT7gIoIsNI6Ku0aYrnFBqbDfVSEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\ApartmentBooking.Application\\ApartmentBooking.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anjo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Anjo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Anjo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
