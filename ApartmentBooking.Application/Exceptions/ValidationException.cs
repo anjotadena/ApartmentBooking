@@ -1,6 +1,4 @@
-﻿using ApartmentBooking.Application.Abstractions.Behaviors;
-
-namespace ApartmentBooking.Application.Exceptions;
+﻿namespace ApartmentBooking.Application.Exceptions;
 
 public sealed class ValidationException : Exception
 {

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ApartmentBooking.Application.Abstractions.Messaging;
+namespace ApartmentBooking.Application.Bookings.GetBooking;
 
-namespace ApartmentBooking.Application.Bookings.GetBooking
-{
-    internal class GetBookingQuery
-    {
-    }
-}
+public sealed record GetBookingQuery(Guid BookingId) : IQuery<BookingResponse>;

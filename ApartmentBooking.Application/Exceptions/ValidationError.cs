@@ -1,3 +1,3 @@
-﻿namespace ApartmentBooking.Application.Abstractions.Behaviors;
+﻿namespace ApartmentBooking.Application.Exceptions;
 
 public sealed record ValidationError(string PropertyName, string ErrorMessage);
