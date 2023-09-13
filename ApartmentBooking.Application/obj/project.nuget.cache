@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JSeIqOdiz+oa0meVitfkBCJUJnnNXExeyUCTV3X223A222b62NAvT6FGLcJgiVtuzZ6Npmm0CAetHZ+vhdNYIA==",
+  "dgSpecHash": "4W7ot47/JeQUntw9GhEcvsMaRr7csgjTSpwe4jEW9UIKzNbOdw1cD9wt5pdLnWhrvESWN7xhhxu4QRmDIyRLAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\ApartmentBooking.Application\\ApartmentBooking.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anjo\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
+    "C:\\Users\\Anjo\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Anjo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Anjo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Anjo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Anjo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
