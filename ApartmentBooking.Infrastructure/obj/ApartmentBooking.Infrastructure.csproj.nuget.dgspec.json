@@ -185,6 +185,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"

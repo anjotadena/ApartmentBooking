@@ -15,6 +15,20 @@
           }
         }
       },
+      "EFCore.NamingConventions/7.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "[7.0.2, 8.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[7.0.2, 8.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/EFCore.NamingConventions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/EFCore.NamingConventions.dll": {}
+        }
+      },
       "FluentValidation/11.7.1": {
         "type": "package",
         "compile": {
@@ -391,6 +405,18 @@
         "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "EFCore.NamingConventions/7.0.2": {
+      "sha512": "zJz6+YohdMHBFwi54RyH4bWMVTV6qHhIkGl7TWDyVE7HfOxM0gCux9cDg8yCTmG2ie99yY8XYlIaTGl/TNMnnQ==",
+      "type": "package",
+      "path": "efcore.namingconventions/7.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "efcore.namingconventions.7.0.2.nupkg.sha512",
+        "efcore.namingconventions.nuspec",
+        "lib/net6.0/EFCore.NamingConventions.dll"
       ]
     },
     "FluentValidation/11.7.1": {
@@ -871,6 +897,7 @@
     "net7.0": [
       "ApartmentBooking.Application >= 1.0.0",
       "ApartmentBooking.Domain >= 1.0.0",
+      "EFCore.NamingConventions >= 7.0.2",
       "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4"
     ]
@@ -921,6 +948,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "EFCore.NamingConventions": {
+            "target": "Package",
+            "version": "[7.0.2, )"
+          },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"
