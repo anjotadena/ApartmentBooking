@@ -1,7 +1,12 @@
 ﻿using ApartmentBooking.Application.Abstractions.Clock;
 using ApartmentBooking.Application.Abstractions.Email;
+using ApartmentBooking.Domain.Abstractions;
+using ApartmentBooking.Domain.Apartments;
+using ApartmentBooking.Domain.Bookings;
+using ApartmentBooking.Domain.Users;
 using ApartmentBooking.Infrastructure.Clock;
 using ApartmentBooking.Infrastructure.Email;
+using ApartmentBooking.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +27,11 @@ public static class DependencyInjection
         {
             options.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
         });
+
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IApartmentRepository, ApartmentRepository>();
+        services.AddScoped<IBookingRepository, BookingRepository>();
+        services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<ApplicationDbContext>());
 
         return services;
     }
