@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// wire up our DI
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
