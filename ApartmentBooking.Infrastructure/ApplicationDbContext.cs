@@ -1,4 +1,5 @@
-﻿using ApartmentBooking.Domain.Abstractions;
+﻿using ApartmentBooking.Application.Exceptions;
+using ApartmentBooking.Domain.Abstractions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,11 +23,18 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
-        var result = await base.SaveChangesAsync(cancellationToken);
+        try
+        {
+            var result = await base.SaveChangesAsync(cancellationToken);
 
-        await PublishDomainEventAsync();
+            await PublishDomainEventAsync();
 
-        return result;
+            return result;
+        }
+        catch (DbUpdateConcurrencyException ex)
+        {
+            throw new ConcurrencyException("Concurrency exception occured.", ex);
+        }
     }
 
     private async Task PublishDomainEventAsync()
