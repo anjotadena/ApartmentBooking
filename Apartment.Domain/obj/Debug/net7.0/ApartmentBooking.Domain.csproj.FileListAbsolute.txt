@@ -1,0 +1,12 @@
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\bin\Debug\net7.0\ApartmentBooking.Domain.deps.json
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\bin\Debug\net7.0\ApartmentBooking.Domain.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\bin\Debug\net7.0\ApartmentBooking.Domain.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.csproj.AssemblyReference.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.AssemblyInfoInputs.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.AssemblyInfo.cs
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\refint\ApartmentBooking.Domain.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ApartmentBooking.Domain.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\Apartment.Domain\obj\Debug\net7.0\ref\ApartmentBooking.Domain.dll

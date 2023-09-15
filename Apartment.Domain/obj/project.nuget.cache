@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7KOyrwQcCHLzTIB2BxybN775wf0EGFMN11Pf8EeTXVgPLt6WlkcwleynUZto9OJbdRmMWIx27wuzvx40rXgqlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anjo\\source\\repos\\ApartmentBooking\\Apartment.Domain\\ApartmentBooking.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anjo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

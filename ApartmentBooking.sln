@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApartmentBooking.Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApartmentBooking.Infrastructure", "ApartmentBooking.Infrastructure\ApartmentBooking.Infrastructure.csproj", "{D299F2EF-9E8E-4EAC-AF8A-B3862BA0AAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentBooking.Api", "ApartmentBooking.Api\ApartmentBooking.Api.csproj", "{6082215A-05D0-4550-BD04-7751F18C9430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApartmentBooking.Api", "ApartmentBooking.Api\ApartmentBooking.Api.csproj", "{6082215A-05D0-4550-BD04-7751F18C9430}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F07639CC-7F70-4D21-943F-40D095938F69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{6082215A-05D0-4550-BD04-7751F18C9430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6082215A-05D0-4550-BD04-7751F18C9430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6082215A-05D0-4550-BD04-7751F18C9430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07639CC-7F70-4D21-943F-40D095938F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07639CC-7F70-4D21-943F-40D095938F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07639CC-7F70-4D21-943F-40D095938F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07639CC-7F70-4D21-943F-40D095938F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

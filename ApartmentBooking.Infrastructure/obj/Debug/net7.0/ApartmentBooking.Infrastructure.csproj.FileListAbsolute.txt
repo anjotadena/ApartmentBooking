@@ -1,0 +1,17 @@
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Infrastructure.deps.json
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Infrastructure.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Infrastructure.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Application.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Domain.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Domain.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\bin\Debug\net7.0\ApartmentBooking.Application.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.AssemblyInfo.cs
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.csproj.CopyComplete
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\refint\ApartmentBooking.Infrastructure.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ApartmentBooking.Infrastructure.pdb
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Infrastructure\obj\Debug\net7.0\ref\ApartmentBooking.Infrastructure.dll
