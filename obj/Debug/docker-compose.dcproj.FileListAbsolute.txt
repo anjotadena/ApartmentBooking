@@ -29,3 +29,4 @@ C:\Users\Anjo\source\repos\ApartmentBooking\bin\Debug\ApartmentBooking.Infrastru
 C:\Users\Anjo\source\repos\ApartmentBooking\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Anjo\source\repos\ApartmentBooking\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Anjo\source\repos\ApartmentBooking\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Anjo\source\repos\ApartmentBooking\bin\Debug\Bogus.dll

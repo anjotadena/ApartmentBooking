@@ -54,3 +54,4 @@ C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Bogus.dll
