@@ -49,3 +49,8 @@ C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\obj\Debug\net7.
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\obj\Debug\net7.0\ApartmentBooking.Api.pdb
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\obj\Debug\net7.0\ApartmentBooking.Api.genruntimeconfig.cache
 C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\obj\Debug\net7.0\ref\ApartmentBooking.Api.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Anjo\source\repos\ApartmentBooking\ApartmentBooking.Api\bin\Debug\net7.0\System.CodeDom.dll

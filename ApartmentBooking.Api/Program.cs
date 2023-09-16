@@ -1,3 +1,4 @@
+using ApartmentBooking.Api.Extensions;
 using ApartmentBooking.Application;
 using ApartmentBooking.Infrastructure;
 
@@ -21,6 +22,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations();
 }
 
 app.UseHttpsRedirection();

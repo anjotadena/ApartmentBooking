@@ -7,6 +7,10 @@ namespace ApartmentBooking.Domain.Bookings;
 
 public class Booking : Entity
 {
+    private Booking()
+    {
+    }
+
     private Booking(
         Guid id,
         Guid apartmentId,
