@@ -7,6 +7,8 @@ services:
     build:
       context: .
       dockerfile: ApartmentBooking.Api/Dockerfile
+    depends_on:
+      - apartmentbooking-db
 
   apartmentbooking-db:
     image: postgres:latest
