@@ -50,8 +50,6 @@ internal sealed class SearchApartmentsQueryHandler : IQueryHandler<SearchApartme
                 FROM bookings AS b
                 WHERE
                     b.apartment_id = a.id AND
-                    b.duration_start <= @EndDate AND
-                    b.duration_end >= @StartDate AND
                     b.status = ANY(@ActiveBookingStatuses)
             )
             """;
