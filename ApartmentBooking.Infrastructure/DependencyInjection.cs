@@ -33,6 +33,8 @@ public static class DependencyInjection
 
         services.Configure<AuthenticationOptions>(configuration.GetSection("Authentication"));
 
+        services.ConfigureOptions<JwtBearerOptionsSetup>();
+
         return services;
     }
 
