@@ -22,4 +22,15 @@ services:
     ports:
       - 5432:5432
 
-
+  apartmentbooking-idp:
+    image: jboss/keycloak:latest
+    container_name: ApartmentBooking.Identity
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+      - KEYCLOAK_IMPORT=/tmp/apartmentbooking-realm-export.json
+    volumes:
+      - ./.containers/identity:/opt/jboss/keycloak/standalone/data
+      - ./.files/apartmentbooking-realm-export.json:/tmp/apartmentbooking-realm-export.json
+    ports:
+      - 18080:8080
