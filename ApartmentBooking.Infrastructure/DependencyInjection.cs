@@ -5,11 +5,13 @@ using ApartmentBooking.Domain.Abstractions;
 using ApartmentBooking.Domain.Apartments;
 using ApartmentBooking.Domain.Bookings;
 using ApartmentBooking.Domain.Users;
+using ApartmentBooking.Infrastructure.Authentication;
 using ApartmentBooking.Infrastructure.Clock;
 using ApartmentBooking.Infrastructure.Data;
 using ApartmentBooking.Infrastructure.Email;
 using ApartmentBooking.Infrastructure.Repositories;
 using Dapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +26,18 @@ public static class DependencyInjection
 
         services.AddTransient<IEmailService, EmailService>();
 
+        AddPersistence(services, configuration);
+
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer();
+
+        services.Configure<AuthenticationOptions>(configuration.GetSection("Authentication"));
+
+        return services;
+    }
+
+    private static void AddPersistence(IServiceCollection services, IConfiguration configuration)
+    {
         var connectionString = configuration.GetConnectionString("Database") ?? throw new ArgumentNullException(nameof(configuration));
 
         services.AddDbContext<ApplicationDbContext>(options =>
@@ -40,7 +54,5 @@ public static class DependencyInjection
 
         // Add support for our postgres
         SqlMapper.AddTypeHandler(new DateOnlyTypeHandler());
-
-        return services;
     }
 }
